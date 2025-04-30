@@ -1,0 +1,77 @@
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.npy
+
+# Model files and outputs
+models/
+*_model/
+xgboost_model/
+ensemble_model/
+catboost_model/
+lstm_model/
+*.pth
+*.h5
+*.cbm
+*.model
+*.json
+*.bin
+
+# Processed data
+processed_data/
+raw_data/
+data/
+
+# Output files and plots
+plots/
+outputs/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
